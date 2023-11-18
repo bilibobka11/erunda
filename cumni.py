@@ -2,7 +2,7 @@ import random
 
 
 def igrat():
-    cumney = random.randint(4, 20)
+    cumney = random.randint(4, 30)
     print(f"-----------\nВ кучке {cumney} камней\nВы можете брать 1, 2 или 3 камня\n"
           f"Победил тот, кто взял последний камень\n-----------")
     while cumney > 0:
